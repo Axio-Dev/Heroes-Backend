@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-xx2!8n4hbr%h-!1jz$l&emzz%p6%a1k(^p6lvk-n+!7)a8z&@7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'heroes-backend-j05d.onrender.com',
@@ -132,7 +132,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_DIRS = [
+STATICFILES_DIRS  = [
     BASE_DIR / "static",
 ]
 
