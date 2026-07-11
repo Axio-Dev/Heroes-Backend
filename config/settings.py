@@ -143,9 +143,7 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 6
 }
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-]
+CORS_ALLOW_ALL_ORIGINS=True
 
 # MEDIA_URL = "/media/"
 # MEDIA_ROOT = BASE_DIR / "media"
